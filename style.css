@@ -1,0 +1,81 @@
+html{
+  background: url(https://www.walldevil.com/wallpapers/w04/120223-art-design-dripping-minimalistic-paint-paint-splatter.jpg) no-repeat center center fixed;
+}
+
+h1{
+  color: blue;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 40px;
+  
+}
+
+.titleCards,.pomodoro, .options, .clock{
+  text-align: center;
+}
+
+#startButton{
+  background-color: blue;
+  color: black;
+  border-radius: 8px;
+  font-size: 19px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: white;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: white;
+  colour: blue;
+  text-decoration: underline;
+}
+
+.column1,.column2, .column3, .column4, .column5 {
+	display: inline-block;
+	width:2%;
+}
+
+#number1, #number2, #number3, #number4{
+  border-style: solid;
+  border-width: 2px;
+  padding: 3px;
+  border-color: white;
+  font-weight: bold;
+}
+
+.BB {
+  padding-top: 0;
+  padding-bottom:1;
+}
+
+.wrapper{
+  text-align:center;
+  margin-left: 2%;
+}
+
+form{
+  text-align: center;
+  margin-bottom: 25px
+}
+
+#searchBar{
+  text-align: center;
+  width: 240px;
+  margin-left: 3%;
+}
+
+.linkBox{
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#confirmButton{
+  border-radius: 8px;
+}
+
+.btn:focus {
+    outline:none;
+}
